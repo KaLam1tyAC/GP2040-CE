@@ -77,7 +77,7 @@
 
 #define LIGHT_DATA_NAME_DEFAULT "Standard"
 #define LIGHT_DATA_SIZE_DEFAULT 12
-#define LIGHT_DATA_DEFAULT {\
+#define LIGHT_DATA_DEFAULT \
 0,  1, 2,  3, 16, LightType::LightType_ActionButton, \
 1,  1, 4,  3, 18, LightType::LightType_ActionButton, \
 2,  1, 6,  4, 17, LightType::LightType_ActionButton, \
@@ -90,7 +90,6 @@
 9,  1, 10, 4, 7,  LightType::LightType_ActionButton, \
 10, 1, 12, 4, 6,  LightType::LightType_ActionButton, \
 11, 1, 14, 4, 5,  LightType::LightType_ActionButton
-}
 
 // LED Profile 0
 #define LEDS_PROFILE0_ENABLED 1
@@ -116,14 +115,14 @@
 }
 
 #define DEFAULT_BOARD_LAYOUT_B {\
-    {GP_ELEMENT_BTN_BUTTON, {57, 34, 8, 8, 1, 1, 8, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {75, 24, 8, 8, 1, 1, 7, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {93, 24, 8, 8, 1, 1, 12, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {111, 28, 8, 8, 1, 1, 11, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {57, 52, 8, 8, 1, 1, 5, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {75, 42, 8, 8, 1, 1, 6, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {93, 42, 8, 8, 1, 1, 21, GP_SHAPE_ELLIPSE}},\
-    {GP_ELEMENT_BTN_BUTTON, {111, 46, 8, 8, 1, 1, 22, GP_SHAPE_ELLIPSE}}\
+    {GP_ELEMENT_PIN_BUTTON, {57, 34, 8, 8, 1, 1, 8, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {75, 24, 8, 8, 1, 1, 7, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {93, 24, 8, 8, 1, 1, 12, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {111, 28, 8, 8, 1, 1, 11, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {57, 52, 8, 8, 1, 1, 5, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {75, 42, 8, 8, 1, 1, 6, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {93, 42, 8, 8, 1, 1, 21, GP_SHAPE_ELLIPSE}},\
+    {GP_ELEMENT_PIN_BUTTON, {111, 46, 8, 8, 1, 1, 22, GP_SHAPE_ELLIPSE}}\
 }
 
 // Keyboard Host enabled by default
